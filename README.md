@@ -79,7 +79,7 @@ sudo apt install -y kubelet kubeadm kubectl
 sudo apt-mark hold kubelet kubeadm kubectl```
 ```
 
-## Execute ONLY on "Master Node"
+## Execute only on "Master Node"
 
 ```bash
 sudo kubeadm init
