@@ -84,7 +84,7 @@ sudo apt-mark hold kubelet kubeadm kubectl```
 ```bash
 sudo kubeadm init
 ```
-### Agter that provide you token copy the token to run worker node, After that Few command run to master node
+### After that provide you token, Copy the token to run worker node, After that Few command run to master node
 
 ```bash
 mkdir -p $HOME/.kube
@@ -96,7 +96,7 @@ sudo chown $(id -u):$(id -g) $HOME/.kube/config
 kubectl apply -f https://raw.githubusercontent.com/projectcalico/calico/v3.25.0/manifests/calico.yaml
 ```
 
-### Now All done run the command to Master node to check Everything is Fine or not?
+### Now all done, Run the command to master node to check everything is fine or not?
 ```bash
 kubectl get pods
 ```
